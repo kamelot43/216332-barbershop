@@ -101,49 +101,32 @@
       		<p class="catalog-price">3900р</p>
       		<a href="#">КУПИТЬ</a>
       	</article>
-      	<button class="btn catalog-1" type="button">1</button>
-      	<button class="btn catalog-2" type="button">2</button>
-      	<button class="btn catalog-3" type="button">3</button>
-      	<button class="btn catalog-4" type="button">4</button>      	
+      	<a href="#" class="catalog-anchor">1</a>
+      	<a href="#" class="catalog-anchor">2</a>
+        <a href="#" class="catalog-anchor">3</a>
+        <a href="#" class="catalog-anchor">4</a>
       </div>
 
       <div class="sidebar">
       	<section class="sidebar-content">      		
       		<h2 class="sidebar-desc">Производители:</h2>
       		<form action="#" method="post">
-      			<label>
-      			 <input type="checkbox" name="product">BAXTER OF CALIFORNIA
-      			</label>
-      				<label>
-      				<input type="checkbox" name="product">MR NATTY
-      			</label>
-      				<label>
-      				<input type="checkbox" name="product">SUAVECITO
-      			</label>
-      			<label>
-      				<input type="checkbox" name="product">MALIN+GOETZ
-      			</label>
-      			<label>
-      				<input type="checkbox" name="product">MURRAY'S
-      			</label>
-      			<label>
-      				<input type="checkbox" name="product">AMERICAN CREW
-      			</label>
-      		</form>
-      	</section>
-      	<section class="sidebar-content">
-      	<h2 class="sidebar-desc">ГРУППЫ ТОВАРОВ:</h2>
-      	<form action="#" method="post">
-      		<label>
-      			<input type="radio" name="category" value="Бритвенные принадлежности">Бритвенные принадлежности
-      		</label>
-      		<label>
-      			<input type="radio" name="category" value="Средства для ухода">Средства для ухода
-      		</label>
-      		<label>
-      			<input type="radio" name="category" value="Аксессуары">Аксессуары
-      		</label>
-      		<a href="#">Показать</a>
+            <fieldset>
+            <legend class="sidebar-title">Производители:</legend>      			
+      			  <input type="checkbox" name="product">BAXTER OF CALIFORNIA      				
+      				<input type="checkbox" name="product">MR NATTY		
+      				<input type="checkbox" name="product">SUAVECITO    			
+      			  <input type="checkbox" name="product">MALIN+GOETZ      			
+      			  <input type="checkbox" name="product">MURRAY'S      			
+      			  <input type="checkbox" name="product">AMERICAN CREW      			
+          </fieldset>
+      	
+      	<fieldset>
+      	<legend class="sidebar-title">ГРУППЫ ТОВАРОВ</legend>     	
+      		    <input type="radio" name="category" value="Бритвенные принадлежности">Бритвенные принадлежности     		
+      		    <input type="radio" name="category" value="Средства для ухода">Средства для ухода      		
+      		    <input type="radio" name="category" value="Аксессуары">Аксессуары
+      		    <button type="button">Показать</button>
       	</form>
       </section>
       </div>      
