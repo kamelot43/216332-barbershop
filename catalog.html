@@ -10,9 +10,9 @@
   		 	<nav class="main-navigation">
   		 		<ul>
   		 			<li>
-  		 		<figure class="catalog-logo">
+  		 		<div class="catalog-logo">
         <img src="img/catalog-logo.png" width="100" height="100" alt="Лого Барбершоп «Бородинский»">
-          </figure>
+          </div>
            </li>
             <li>
               <a href="#">Информация</a>
@@ -39,16 +39,16 @@
     </header>
     <main class="container">
     	<div class="breadcrumbs">
-    		<h1 class="breadcrumbs-desc">СРЕДСТВА ДЛЯ УХОДА</h1>
+    		<h1 class="breadcrumbs-desc">Средства для ухода</h1>
     		<ul>
     			<li>
-    				<a href="#">ГЛАВНАЯ</a>
+    				<a href="#">Главная</a>
     			</li>
     			<li>
-    				<a href="#">МАГАЗИН</a>
+    				<a href="#">Магазин</a>
     			</li>
     			<li>
-    				<a href="#">СРЕДСТВА ДЛЯ УХОДА</a>
+    				<a href="#">Средства для ухода</a>
     			</li>
     		</ul>
     	</div>
@@ -59,7 +59,7 @@
       		</figure>
       		<h2 class="catalog-desc">Набор для путешествий "BAXTER OF CALIFORNIA"</h2>
       		<p class="catalog-price">2900р</p>
-      		<a href="#">КУПИТЬ</a>
+      		<a href="#">Купить</a>
       	</article>
       	<article class="catalog-item">
       		<figure class="catalog-content">
@@ -67,7 +67,7 @@
       		</figure>
       		<h2 class="catalog-desc">Увлажняющий кондиционер "BAXTER OF CALIFORNIA"</h2>
       		<p class="catalog-price">750р</p>
-      		<a href="#">КУПИТЬ</a>
+      		<a href="#">Купить</a>
       	</article>
       	<article class="catalog-item">
       		<figure class="catalog-content">
@@ -75,7 +75,7 @@
       		</figure>
       		<h2 class="catalog-desc">Гель для волос "SUAVECITO" </h2>
       		<p class="catalog-price">290р</p>
-      		<a href="#">КУПИТЬ</a>
+      		<a href="#">Купить</a>
       	</article>
       	 	<article class="catalog-item">
       		<figure class="catalog-content">
@@ -83,7 +83,7 @@
       		</figure>
       		<h2 class="catalog-desc">Глина для укладки волос "AMERICAN CREW"</h2>
       		<p class="catalog-price">500р</p>
-      		<a href="#">КУПИТЬ</a>
+      		<a href="#">Купить</a>
       	</article>
       	 	<article class="catalog-item">
       		<figure class="catalog-content">
@@ -91,7 +91,7 @@
       		</figure>
       		<h2 class="catalog-desc">Гель для волос "AMERICAN CREW"</h2>
       		<p class="catalog-price">300р</p>
-      		<a href="#">КУПИТЬ</a>
+      		<a href="#">Купить</a>
       	</article>
       	 	<article class="catalog-item">
       		<figure class="catalog-content">
@@ -99,12 +99,14 @@
       		</figure>
       		<h2 class="catalog-desc">Набор для бритья "BAXTER OF CALIFORNIA"</h2>
       		<p class="catalog-price">3900р</p>
-      		<a href="#">КУПИТЬ</a>
+      		<a href="#">Купить</a>
       	</article>
+        <div class="catalog-paginator">
       	<a href="#" class="catalog-anchor">1</a>
       	<a href="#" class="catalog-anchor">2</a>
         <a href="#" class="catalog-anchor">3</a>
         <a href="#" class="catalog-anchor">4</a>
+      </div>
       </div>
 
       <div class="sidebar">
@@ -112,43 +114,52 @@
       		<h2 class="sidebar-desc">Производители:</h2>
       		<form action="#" method="post">
             <fieldset>
-            <legend class="sidebar-title">Производители:</legend>      			
-      			  <input type="checkbox" name="product">BAXTER OF CALIFORNIA      				
-      				<input type="checkbox" name="product">MR NATTY		
-      				<input type="checkbox" name="product">SUAVECITO    			
-      			  <input type="checkbox" name="product">MALIN+GOETZ      			
-      			  <input type="checkbox" name="product">MURRAY'S      			
-      			  <input type="checkbox" name="product">AMERICAN CREW      			
-          </fieldset>
+            <legend class="sidebar-title">Производители:</legend>
+            <label for="product-item-1">BAXTER OF CALIFORNIA </label>      			
+      			<input type="checkbox" name="product" id="product-item-1">
+            <label for="product-item-2">MR NATTY</label>      				
+      			<input type="checkbox" name="product" id="product-item-2">
+            <label for="product-item-3">SUAVECITO</label> 		
+      			<input type="checkbox" name="product" id="product-item-3"> 
+            <label for="product-item-4">MALIN+GOETZ</label>    			
+      			<input type="checkbox" name="product" id="product-item-4">
+            <label for="product-item-5">MURRAY'S</label>       			
+      			<input type="checkbox" name="product" id="product-item-5">
+            <label for="product-item-6">AMERICAN CREW </label>       			
+      			<input type="checkbox" name="product" id="product-item-6">     			
+            </fieldset>
       	
-      	<fieldset>
-      	<legend class="sidebar-title">ГРУППЫ ТОВАРОВ</legend>     	
-      		    <input type="radio" name="category" value="Бритвенные принадлежности">Бритвенные принадлежности     		
-      		    <input type="radio" name="category" value="Средства для ухода">Средства для ухода      		
-      		    <input type="radio" name="category" value="Аксессуары">Аксессуары
-      		    <button type="button">Показать</button>
+      	   <fieldset>
+      	   <legend class="sidebar-title">ГРУППЫ ТОВАРОВ</legend>
+           <label for="category-item-1">Бритвенные принадлежности</label>     	
+      	   <input type="radio" name="category" value="Бритвенные принадлежности" id="category-item-1">
+           <label for="category-item-2">Средства для ухода</label>    		
+      	   <input type="radio" name="category" value="Средства для ухода" id="category-item-1">
+           <label for="category-item-3">Аксессуары</label>    		
+      		 <input type="radio" name="category" value="Аксессуары" id="category-item-1">
+      		 <button type="button">Показать</button>
       	</form>
       </section>
       </div>      
     </main>
     <footer class="main-footer">
       <div class="container">
-      	<section class="footer-contacts">
+      	<div class="footer-contacts">
       		Барбершоп «Бородинский»<br>
           Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
           <a href="#">Как нас найти?</a><br>
           Телефон: +7 (812) 666-02-66          
-        </section>
-        <section class="footer-social">
+        </div>
+        <div class="footer-social">
             <p>Давайте дружить!</p>
           <a class="social-btn social-btn-vk" href="#">Вконтакте</a>
           <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
           <a class="social-btn social-btn-inst" href="#">Инстаграм</a>
-        </section>
-        <section class="footer-copyright">
+        </div>
+        <div class="footer-copyright">
            <p>Разработано:</p>
           <a class="btn" href="https://htmlacademy.ru">HTML Academy</a>
-        </section>
+        </div>
       </div>
     </footer>       
   </body>
