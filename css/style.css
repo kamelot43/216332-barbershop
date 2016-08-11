@@ -1,0 +1,15 @@
+body {
+	font-family: "PTSans NarrowBold", "Arail", sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+	color: rgb(0, 0, 0);
+}
+
+h1 {
+	font-size: 30px;
+	line-height: 42px;
+}
+h2 {
+	line-height: 18px;
+
+}
