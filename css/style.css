@@ -47,15 +47,13 @@ h2 {
   display: table;
   clear: both;
 }
-.breadcrumbs-item{
-  float: left;	
+.breadcrumbs-item{  	
 	width: 620px;	
 	outline: 2px solid blue;
 	min-height: 70px;
 	margin-bottom: 60px;
 }
-.breadcrumbs{
-	float: left;
+.breadcrumbs{	
 	width: 300px;
 	min-height: 70px;
 	padding: 0 10px;	
@@ -72,6 +70,7 @@ h2 {
 	float: right;	
 	width: 700px;
 	min-height: 685px;
+	margin-bottom: 50px;
 }
 .catalog-item{
   display: inline-block;	
@@ -108,7 +107,8 @@ h2 {
 	width: 220px;
 	min-height: 575px;
 }
-.main-footer{  	
+.main-footer{  
+  clear: both;	
 	margin-top: 60px;
 	padding-bottom: 40px;
 	padding-top: 60px;
